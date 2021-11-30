@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      Object {
+        "height": 500,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingTop": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 22,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      John
+    </Text>
+    <Text>
+       
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 22,
+          "fontWeight": "normal",
+        }
+      }
+    >
+      Doe
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingTop": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#828282",
+          "fontSize": 16,
+        }
+      }
+    >
+      CEO
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "paddingHorizontal": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      About me
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#828282",
+          "fontSize": 16,
+          "lineHeight": 18,
+          "paddingTop": 10,
+        }
+      }
+    >
+      Test test test
+    </Text>
+  </View>
+</View>
+`;

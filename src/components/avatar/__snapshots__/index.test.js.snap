@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flex": 1,
+      "overflow": "hidden",
+      "paddingVertical": 20,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    nativeID="animatedComponent"
+    style={
+      Object {
+        "borderColor": "#bfd7f1",
+        "borderRadius": 40,
+        "borderWidth": 5,
+        "height": 84,
+        "left": 8,
+        "opacity": 0,
+        "position": "absolute",
+        "top": 20,
+        "width": 84,
+        "zIndex": 999,
+      }
+    }
+  />
+  <Image
+    source={
+      Object {
+        "testUri": "image_path",
+      }
+    }
+    style={
+      Object {
+        "height": 80,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "width": 80,
+      }
+    }
+  />
+</View>
+`;
